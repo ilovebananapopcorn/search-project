@@ -22,11 +22,10 @@ spring-boot-maven-plugin <br/>
 ## Package
 
 ## API
-실패시 errCode는 "E"로 시작하게 설계하였다. <br/>
-|Action|API|Parameter|<br/>
-|------|------|------|------|<br/>
-|Search|GET /search||{"keyword": "hi"}|<br/>
-|Rank|GET /rank|||<br/>
+|Action|API|Parameter|
+|------|------|------|------|
+|Search|GET /search||{"keyword": "hi"}|
+|Rank|GET /rank|||
 
 ## 호출방법
 1. search : query param인 keyword를 바꿔가며 호출 가능
@@ -71,7 +70,8 @@ ContorllerTest.java로 Search 기능 검증 <br/>
 StatisticsControllerTest.java로 통계 기능 검증
 ### Exception 처리
 GlobalExceptionHandler를 구현하여 에러 처리를 분기함
-Apiclient에서는 에러 발생 시 한개의 기관에서라도 데이터를 산출할 수 있도록 빈 값의 데이터를 받아오도록 함.
+실패시 errCode는 "E"로 시작하게 설계
+Apiclient에서는 에러 발생 시 한개의 기관에서라도 데이터를 산출할 수 있도록 빈 값의 데이터를 받아오도록 함
 ## 빌드 및 실행 방법
 gradle update 후 spring boot app 으로 기동.
 
