@@ -20,6 +20,21 @@ spring-boot-starter-test <br/>
 spring-boot-maven-plugin <br/>
 
 ## Package
+com.sy.keyword
+├── batch
+├── biz
+│   ├── search
+│   │   ├── controller
+│   │   ├── service
+│   │   └── vo
+├── common
+│   ├── client
+│   ├── data
+│   ├── exception
+│   ├── properties
+│   ├── util
+│   └── web
+└── SearchApplication
 
 ## API
 |Action|API|Parameter|
