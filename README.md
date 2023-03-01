@@ -23,9 +23,9 @@ spring-boot-maven-plugin <br/>
 
 ## API
 |Action|API|Parameter|
-|------|------|------|------|
-|Search|GET /search||{"keyword": "hi"}|
-|Rank|GET /rank|||
+|------|------|------|
+|Search|GET /search|{"keyword": "hi"}|
+|Rank|GET /rank||
 
 ## 호출방법
 1. search : query param인 keyword를 바꿔가며 호출 가능
