@@ -66,12 +66,12 @@ curl --location 'http://localhost:9090/rank'
 
 ## 문제해결 전략
 ### 베이스 데이터
-네이버가 5개로 데이터 리턴 개수가 고정되어 있어, 카카오를 먼저 10개를 조회하고
+네이버가 5개로 데이터 리턴 개수가 고정되어 있어, 카카오를 먼저 10개를 조회하고 </br>
 네이버의 리턴 개수에 따라 베이스 데이터를 10개를 맞추도록 카카오 데이터를 제거하는 형태로 개발
 ### 확장성을 이용한 팩토리 패턴 구현
-webclient를 팩토리 패턴으로 구현하여 추가되는 api 기관이 있을 시 webclient를 추가해주는 형태로 설계
+webclient를 팩토리 패턴으로 구현하여 추가되는 api 기관이 있을 시 webclient를 추가해주는 형태로 설계 </br>
 ### 대용량 트래픽 처리
-webclient를 병렬로 호출하고, 데이터 취합시 countDownlatch로 응답값을 받아 병렬처리로 서비스 속도 향상
+webclient를 병렬로 호출하고, 데이터 취합시 countDownlatch로 응답값을 받아 병렬처리로 서비스 속도 향상 </br>
 통계를 호출 시 마다가 아닌, 10분마다 스케줄러 형태로 반영하여 시스템 부하를 줄임
 ### 동시성 이슈 방지
 데이터 업데이트를 없이 insert 위주의 데이터 설계
@@ -84,8 +84,8 @@ ApiClientTest.java로 ApiClient 기능 검증 <br/>
 ContorllerTest.java로 Search 기능 검증 <br/>
 StatisticsControllerTest.java로 통계 기능 검증
 ### Exception 처리
-GlobalExceptionHandler를 구현하여 에러 처리를 분기함
-실패시 errCode는 "E"로 시작하게 설계
+GlobalExceptionHandler를 구현하여 에러 처리를 분기함 </br>
+실패시 errCode는 "E"로 시작하게 설계 </br>
 Apiclient에서는 에러 발생 시 한개의 기관에서라도 데이터를 산출할 수 있도록 빈 값의 데이터를 받아오도록 함
 ## 빌드 및 실행 방법
 gradle update 후 spring boot app 으로 기동.
