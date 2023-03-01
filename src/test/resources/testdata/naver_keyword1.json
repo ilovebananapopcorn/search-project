@@ -1,0 +1,63 @@
+{
+  "lastBuildDate": "Wed, 01 Mar 2023 15:56:16 +0900",
+  "total": 5,
+  "start": 1,
+  "display": 5,
+  "items": [
+    {
+      "title": "<b>카카오뱅크</b>",
+      "link": "http://www.kakaobank.com/",
+      "category": "금융,보험>은행",
+      "description": "",
+      "telephone": "",
+      "address": "경기도 성남시 분당구 백현동 534 11층",
+      "roadAddress": "경기도 성남시 분당구 분당내곡로 131 11층",
+      "mapx": "321582",
+      "mapy": "532977"
+    },
+    {
+      "title": "신한은행 <b>카카오</b>출장소",
+      "link": "",
+      "category": "금융,보험>은행",
+      "description": "",
+      "telephone": "",
+      "address": "경기도 성남시 분당구 백현동 532",
+      "roadAddress": "경기도 성남시 분당구 판교역로 166",
+      "mapx": "321429",
+      "mapy": "532975"
+    },
+    {
+      "title": "신한 <b>카카오</b> ATM 점두365",
+      "link": "",
+      "category": "금융,보험>은행",
+      "description": "",
+      "telephone": "",
+      "address": "경기도 성남시 분당구 백현동 532",
+      "roadAddress": "경기도 성남시 분당구 판교역로 166",
+      "mapx": "321428",
+      "mapy": "532981"
+    },
+    {
+      "title": "이마트24 self<b>카카오뱅크</b>서울역점",
+      "link": "",
+      "category": "생활,편의>편의점",
+      "description": "",
+      "telephone": "",
+      "address": "서울특별시 영등포구 여의도동 22",
+      "roadAddress": "서울특별시 영등포구 여의대로 108",
+      "mapx": "305374",
+      "mapy": "547709"
+    },
+    {
+      "title": "이마트24 self<b>카카오뱅크</b>판교점",
+      "link": "",
+      "category": "생활,편의>편의점",
+      "description": "",
+      "telephone": "",
+      "address": "경기도 성남시 분당구 삼평동 680",
+      "roadAddress": "경기도 성남시 분당구 판교역로 231",
+      "mapx": "321282",
+      "mapy": "533631"
+    }
+  ]
+}

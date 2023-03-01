@@ -1,0 +1,63 @@
+{
+  "lastBuildDate": "Wed, 01 Mar 2023 18:17:55 +0900",
+  "total": 5,
+  "start": 1,
+  "display": 5,
+  "items": [
+    {
+      "title": "<b>마이데이터</b> 지원센터",
+      "link": "",
+      "category": "협회,단체",
+      "description": "",
+      "telephone": "",
+      "address": "서울특별시 중구 저동1가 114",
+      "roadAddress": "서울특별시 중구 삼일대로 343",
+      "mapx": "310713",
+      "mapy": "551917"
+    },
+    {
+      "title": "오<b>마이데이터</b>",
+      "link": "http://www.ohmydata.com/",
+      "category": "컴퓨터프로그래밍,정보서비스업>데이터베이스개발,복구",
+      "description": "",
+      "telephone": "",
+      "address": "서울특별시 성동구 성수동2가 333-15 서울숲 한라시그마밸리II, 1105호",
+      "roadAddress": "서울특별시 성동구 성수이로7길 7 서울숲 한라시그마밸리II, 1105호",
+      "mapx": "316638",
+      "mapy": "549047"
+    },
+    {
+      "title": "<b>마이</b>로직",
+      "link": "http://www.malogicgroup.com/",
+      "category": "전문,기술서비스>경영컨설팅",
+      "description": "",
+      "telephone": "",
+      "address": "서울특별시 마포구 서교동 368-22",
+      "roadAddress": "서울특별시 마포구 잔다리로 32 서문빌딩",
+      "mapx": "304755",
+      "mapy": "550479"
+    },
+    {
+      "title": "<b>마이</b>셀럽스",
+      "link": "https://www.mycelebs.com/",
+      "category": "서비스,산업>IT서비스",
+      "description": "",
+      "telephone": "",
+      "address": "서울특별시 강남구 역삼동 706",
+      "roadAddress": "서울특별시 강남구 테헤란로 302 위워크타워 17층",
+      "mapx": "315628",
+      "mapy": "544908"
+    },
+    {
+      "title": "코드에프",
+      "link": "https://blog.naver.com/codef_api",
+      "category": "소프트웨어개발>솔루션개발",
+      "description": "",
+      "telephone": "",
+      "address": "서울특별시 중구 수표동 99",
+      "roadAddress": "서울특별시 중구 청계천로 100",
+      "mapx": "310837",
+      "mapy": "552198"
+    }
+  ]
+}
