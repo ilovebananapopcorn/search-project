@@ -22,11 +22,11 @@ spring-boot-maven-plugin <br/>
 ## Package
 
 ## API
-실패시 errCode는 "E"로 시작하게 설계하였다.
-|Action|API|Parameter|
-|------|------|------|------|
-|Search|GET /search||{"keyword": "hi"}|
-|Rank|GET /rank|||
+실패시 errCode는 "E"로 시작하게 설계하였다. <br/>
+|Action|API|Parameter|<br/>
+|------|------|------|------|<br/>
+|Search|GET /search||{"keyword": "hi"}|<br/>
+|Rank|GET /rank|||<br/>
 
 ## 호출방법
 1. search : query param인 keyword를 바꿔가며 호출 가능
