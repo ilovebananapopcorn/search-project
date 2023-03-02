@@ -83,7 +83,7 @@ webclient를 병렬로 호출하고, 데이터 취합시 countDownlatch로 응�
 상호명을 trim해서 같은 값일 때, 도로명주소와 기존 주소중에 한 값이 같으면 같은 상호로 구현<br/>
 도로명 주소와 기존 주소는 카카오와 네이버가 규칙이 달라, 카카오에 맞춰 네이버값을 정규식으로 변환함 (ex 서울특별시 -> 서울) <br/>
 주소값에서 층 호 들은 표기된 곳도 있고, 아닌 곳도 있어 번지까지 같으면 같은 주소로 취급 <br/>
-### 단위테스트로 각 기능 검증
+### JUNIT을 이용한 단위테스트로 각 기능 검증
 ApiClientTest.java로 ApiClient 기능 검증 <br/>
 ContorllerTest.java로 Search 기능 검증 <br/>
 StatisticsControllerTest.java로 통계 기능 검증
