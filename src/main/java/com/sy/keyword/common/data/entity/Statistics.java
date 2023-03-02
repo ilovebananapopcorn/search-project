@@ -26,7 +26,7 @@ public class Statistics{
     private String keyword;
 
     @Id
-    @Column(name="search_minute")
+    @Column(name="statistics_minute")
     private String statisticsMinute;
 
     @Column(name="search_day")

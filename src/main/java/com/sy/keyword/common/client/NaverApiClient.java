@@ -49,7 +49,7 @@ public class NaverApiClient implements ApiClient{
                 .bodyToMono(NaverKeyword.class)
                 .doAfterTerminate(()-> countDownLatch.countDown())
                 .subscribe(e -> {
-                    e.getItems().stream().forEach(item -> log.info(item.getPlaceName()));
+                    //e.getItems().stream().forEach(item -> log.info(item.getPlaceName()));
                     naverResult.addAll(e.getItems()
                             .stream()
                             .map(items -> Place.builder()

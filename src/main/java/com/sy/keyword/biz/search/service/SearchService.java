@@ -49,9 +49,6 @@ public class SearchService {
         //maximum 10개로 (최대한) 만들기
         int naverCount = naverList.size();
 
-        log.info("kakao Result : " + kakaoList.toString());
-        log.info("naver Result : " + naverList.toString());
-
         while(kakaoList.size() + naverCount > 10){
             kakaoList.remove(kakaoList.size()-1);
         }
