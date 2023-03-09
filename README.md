@@ -40,7 +40,7 @@ com.sy.keyword<br/>
 ## API
 |Action|API|Parameter|
 |------|------|------|
-|Search|GET /search|{"keyword": "hi"}|
+|Search|GET /search| ?keyword=hi|
 |Rank|GET /rank||
 
 ## 호출방법
